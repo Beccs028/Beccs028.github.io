@@ -1,0 +1,49 @@
+body {
+    font-family: 'Ubuntu';
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .5rem;
+    transition: color .15s;
+    cursor: pointer;
+}
+
+.btn-navy {
+    color: white;
+    background-color: #253E5F;
+    border-color: white;
+}
+
+.btn-navy:hover {
+    color: #253E5F;
+    background-color: white;
+    border-color: #253E5F;
+}
+
+.btn-white {
+    color: #253E5F;
+    background-color: white;
+    border-color: #253E5F;
+}
+
+.btn-white:hover {
+    color: white;
+    background-color: #253E5F;
+    border-color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
